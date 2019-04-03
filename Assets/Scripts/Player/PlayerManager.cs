@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerMovement))]
+[RequireComponent(typeof(PlayerLook))]
 public class PlayerManager : MonoBehaviour//Stephen
 {
 

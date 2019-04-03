@@ -8,10 +8,10 @@ public class PlayerMovement : MonoBehaviour //Stephen
 
     [Header("Movement Values")]
     public float moveSpeed = 7.5f;
-    public float jumpHeight = 20f;
+    public float jumpHeight = 10f;
 
     [Header("Physics")]
-    public float gravity = 10f;
+    public float gravity = 20f;
     public float groundRayDistance = 1.1f;
 
     [Header("References")]
